@@ -26,7 +26,8 @@ SECRET_KEY = 'django-insecure-wnrtd&0rx7u)_70t!2^knx@o+weo#r+tkss58k4%#-o^==_jb^
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    '8000-jason-fos-hello-django-ki1t8141y6.us2.codeanyapp.com'
+    '8000-jason-fos-hello-django-ki1t8141y6.us2.codeanyapp.com',
+    '8004-jason-fos-hello-django-ki1t8141y6.us2.codeanyapp.com'
     ]
 
 
@@ -39,6 +40,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'todo'
 ]
 
 MIDDLEWARE = [
